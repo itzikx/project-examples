@@ -8,6 +8,20 @@
     <packaging>pom</packaging>
     <name>Simple Multi Modules Build</name>
 
+<distributionManagement>
+    <repository>
+        <id>artifactory</id>
+        <name>artifactory-releases</name>
+        <url>http://localhost:8081/artifactory/test11</url>
+    </repository>
+    <snapshotRepository>
+        <id>artifactory</id>
+        <name>artifactory-snapshots</name>
+        <url>http://localhost:8081/artifactory/test11</url>
+    </snapshotRepository>
+</distributionManagement>
+
+
     <modules>
         <module>multi1</module>
         <module>multi2</module>
