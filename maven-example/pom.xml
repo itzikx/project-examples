@@ -10,16 +10,15 @@
 
 <distributionManagement>
     <repository>
-        <id>artifactory</id>
-        <name>artifactory-releases</name>
-        <url>http://localhost:8081/artifactory/test11</url>
+        <id>Itzikx</id>
+        <name>Itzikx-releases</name>
+        <url>http://localhost:8081/artifactory/Test-repo</url>
     </repository>
     <snapshotRepository>
-        <id>artifactory</id>
-        <name>artifactory-snapshots</name>
-        <url>http://localhost:8081/artifactory/test11</url>
+        <id>Itzikx</id>
+        <name>Itzikx-snapshots</name>
+        <url>http://localhost:8081/artifactory/Test-repo</url>
     </snapshotRepository>
-</distributionManagement>
 
 
     <modules>
