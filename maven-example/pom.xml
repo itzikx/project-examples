@@ -19,6 +19,7 @@
         <name>Itzikx-snapshots</name>
         <url>http://localhost:8081/artifactory/Test-repo</url>
     </snapshotRepository>
+</distributionManagement>
 
     <modules>
         <module>multi1</module>
