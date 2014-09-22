@@ -7,7 +7,7 @@
     <version>2.18-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Simple Multi Modules Build</name>
-
+ 
 <distributionManagement>
     <repository>
         <id>artifactory</id>
