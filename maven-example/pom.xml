@@ -45,7 +45,7 @@
                 <artifactId>maven-plugin-anno</artifactId>
                 <version>1.4-SNAPSHOT</version>
             </dependency>
-        </dependencies>
+   
         
     </dependencies>
 
