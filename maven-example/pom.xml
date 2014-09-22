@@ -20,7 +20,7 @@
         <url>http://localhost:8081/artifactory/Test-repo</url>
     </snapshotRepository>
 </distributionManagement>
-
+  
     <modules>
         <module>multi1</module>
         <module>multi2</module>
