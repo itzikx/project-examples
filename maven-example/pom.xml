@@ -8,25 +8,12 @@
     <packaging>pom</packaging>
     <name>Simple Multi Modules Build</name>
  
-<distributionManagement>
-    <repository>
-        <id>localhost</id>
-        <name>artifactory-releases</name>
-        <url>http://localhost:8081/artifactory/Test-repo</url>
-    </repository>
-    <snapshotRepository>
-        <id>localhost</id>
-        <name>artifactory-snapshots</name>
-        <url>http://localhost:8081/artifactory/Test-repo</url>
-    </snapshotRepository>
-</distributionManagement>
-   
     <modules>
         <module>multi1</module>
         <module>multi2</module>
         <module>multi3</module>
     </modules>
- 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -38,7 +25,6 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-    
     </dependencies>
 
     <build>
@@ -46,7 +32,7 @@
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-jar-plugin</artifactId>
+                      <artifactId>maven-jar-plugin</artifactId>
                     <version>2.4</version>
                 </plugin>
                 <plugin>
